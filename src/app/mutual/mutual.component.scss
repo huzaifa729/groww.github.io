@@ -1,0 +1,351 @@
+.rightnav{
+ padding: 2px 42px;
+   padding-top: 43px;
+}
+
+.call{
+    display: flex;
+}
+
+
+
+.Zero{
+    display: flex;
+    padding: 3px 38px;
+}
+
+
+.hh66CardText{
+    margin: 10px;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.hh66CardText:hover{
+    text-decoration: underline;
+    color: #00d09c;
+   
+
+  
+}
+
+.Zero img{
+    color: gray;
+    height: 42px;
+}
+
+
+
+.call a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.vion{
+  display: flex;
+    margin-left: 70px;
+    padding-top: 50px;
+}
+
+
+
+
+.rogth{
+    color: #4b4b4b;
+    font-size: 60px;
+    padding: 3px 43px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+  
+}
+
+.rogth span{
+   font-size: 31px;
+   color: #4b4b4b;
+   font-family: fantasy;
+}
+
+.soiu{
+    font-size: 19px;
+    padding-top: 44px;
+    color: black;
+    
+}
+.iom{
+    padding-top: 33px;
+}
+
+.iom button {
+    background-color: #00d09c;
+     color: white;
+      padding: 14px 20px;
+      margin: 10px ;
+      border: none;
+     cursor: pointer;
+      width: 40%;
+      // opacity: 0.9;
+      border-radius: 6px;
+      font-size: 19px;
+     
+    
+    }
+   
+    .iom button:hover {
+     opacity:1;
+ 
+ 
+    }
+   
+   /* Extra styles for the cancel button */
+    .cancelbtn {
+     padding: 14px 20px;
+     background-color: #f44336;
+    }
+   
+    /* Float cancel and signup buttons and add an equal width */
+    .cancelbtn, .signupbtn {
+      float: left;
+      width: 50%;
+    }
+   
+    /* Add padding to container elements */
+    .container {
+      padding: 12px;
+      width: 50%;
+     
+    }
+   
+   // /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+     width: 100%; /* Full width */
+      height: 60%; /* Full height */
+     //  overflow: auto; /* Enable scroll if needed */
+     //  background-color: #474e5d;
+      padding-top: 50px;
+    }
+   
+   // /* Modal Content/Box */
+    .modal-content {
+      background-color: #fefefe;
+       margin: 5px auto 15px auto; /* 5% from the top, 15% from the bottom and centered */
+     //  border: 1px solid #888;
+      width: 70%; /* Could be more or less, depending on screen size */
+    }
+   
+   // /* Style the horizontal ruler */
+   //  hr {
+   //    border: 1px solid #f1f1f1;
+   //    margin-bottom: 25px;
+   //  }
+    
+    /* The Close Button (x) */
+    .close {
+      position: absolute;
+      right: 215px;
+     font-size: 40px;
+      font-weight: bold;
+     color: black;
+    }
+   
+    .close:hover,
+    .close:focus {
+      color: #f44336;
+      cursor: pointer;
+   }
+   
+    /* Clear floats */
+    .clearfix::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+ 
+ .konh{
+   display: flex;
+ }
+ 
+ .right{
+ 
+   width: 50%;
+   padding: 2px 55px;
+   padding-top: 48px;
+ }
+ 
+ h3{
+   font-size: 37px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ 
+ .yello{
+ display: flex;
+  padding: 3px 33px;
+  line-height: 233px;
+ 
+ }
+ 
+ .hun{
+  padding-top: 110px;
+ }
+ 
+ h6{
+   margin: 3px;
+   font-size: 18px;
+   padding: 3px 10px;
+   font-family:sans-serif;
+ 
+ 
+ }
+ 
+ .nion{
+   text-align: center;
+   
+ }
+ 
+ .nion h5{
+ font-size: 19px;
+ color: rgb(148, 144, 144);
+ }
+ 
+ 
+ .xero {
+   padding-top: 10px;
+   position: relative;
+     border-bottom: 2px solid black;
+   margin: 1px 0;
+ }
+ 
+ .xero input{
+   width: 100%;
+   padding: 0px 5px;
+   height: 40px;
+   font-size: 16px;
+   border: none;
+   background: none;
+   outline: none;
+ }
+ 
+ .xero label{
+   position: absolute;
+   top: 50%;
+   left: 5px;
+   color: rgb(117, 114, 114);
+   transform: translateY(-50%);
+   font-size: 19px;
+    pointer-events: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
+ .xero span::before{
+   content: "";
+   position: absolute;
+   top: 50px;
+   left: 0;
+   width: 0%;
+   height: 2px;
+   background: #00d09c;
+   transition: .5s;
+ }
+ 
+ .xero input:focus ~ label,
+ .xero input:valid ~ label{
+   top: -5px;
+   color: #00d09c;
+ }
+ 
+ .xero input:focus ~ span::before,
+ .xero input:valid ~ span::before{
+   width: 100%;
+ 
+ }
+ 
+ 
+ .air button{
+   padding: 2px 5px;
+   background-color: #00d09c;
+   width: 96%;
+  height: 50px;
+  font-size: 21px;
+  font-family: unset;
+ }
+ 
+ .air button:hover{
+   background-color: #b0b2ba;
+ }
+ 
+ .lls723LeftTopText {
+   font-weight: 100;
+   font-size: 36px;
+   line-height: 48px;
+   letter-spacing: .2px;
+ }
+ 
+ .lls723LeftTextWrapper {
+   position: absolute;
+   top: 88px;
+   left: 250px;
+  color: white;
+ }
+ 
+ 
+ .lls723LeftDashAnim {
+   margin-top: 222px;
+   margin-left: 1px;
+    height: 8px;
+    width: 44px;
+    background: white;
+   
+ }
+ 
+ 
+ 
+ 
+ 
+ .ion p::before{
+   content: "";
+   animation:animates infinite 13s;
+ }
+ 
+ .ion p{
+   font-size: 31px;
+   margin: 5px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+ 
+ @keyframes animates{
+   0%{
+     content: "Gold";
+     color: white;
+   }
+ 
+   20%{
+     content: "ETFs";
+     color: white;
+   }
+ 
+   40%{
+     content: "Mutual Funds";
+     color: white;
+   }
+ 
+   60%{
+     content: "US Stocks";
+     color: white;
+   }
+ 
+   80%{
+     content: "Fixed Deposits";
+     color: white;
+   }
+ 
+   100%{
+     content: "Stocks";
+     color: white;
+   }
+ }
+

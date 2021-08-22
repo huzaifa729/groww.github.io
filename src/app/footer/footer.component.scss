@@ -1,0 +1,262 @@
+.koi{
+    padding-top: 15px;
+    background-color: #1e2232;
+    height: 440px;
+    top: 0;
+    left: 0;
+}
+
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 13px;
+}
+
+
+
+.lop{
+    padding: 3px 6px;
+      margin-left: 93px;
+  
+}
+
+.lop li{
+ list-style: none;
+ color: white;
+ font-size: 18px;
+ margin: 13px;
+ cursor: pointer;
+ text-align: left;
+
+}
+
+h2{
+    color: white;
+    font-size: 18px;
+    text-align: left;
+}
+
+.sio{
+    padding-top: 133px;
+   
+}
+
+.lop p{
+    color: white;
+}
+
+.lop h1{
+    padding-top: 10px;
+}
+
+.lop a{
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.down{
+    display: flex;
+    cursor: pointer;
+}
+
+.sio hr{
+    max-width: 84%;
+   margin-top: 41px;
+ 
+}
+
+.wrapper{
+    padding-top: 18px;
+    color: white;
+    margin-left: 96px;
+    font-size: 18px;
+}
+
+.fm77HeartImg{
+    color: orangered;
+ font-size: 34px;
+
+}
+
+.hik{
+    display: flex;
+}
+
+.sholf{
+    padding-left: 285px;
+    padding-top: 12px;
+ 
+}
+
+.sholf img{
+    margin: 3px 13px;
+}
+
+.noiu{
+    background-color: #191c27;
+    height:1940px;
+}
+.kol{
+    padding-top: 33px;
+}
+span a{
+    color:#00d09c;
+    text-decoration: none;
+}
+
+.Heading{
+    color: white;
+    margin-left: 96px;
+    padding: 3px;
+}
+
+
+.weild{
+    display: flex;
+    margin-left: 66px;
+    padding: 16px;
+ 
+}
+
+
+.weild li{
+ list-style: none;
+  padding: 3px 13px;
+
+ 
+}
+.weild li a{
+    text-decoration: none;
+    color: #7c7e8c;
+}
+.weild li a:hover{
+    color: white;
+}
+
+
+.weild span{
+    color: white;
+}
+ hr{
+    max-width: 86%;
+}
+
+
+
+
+
+.accordion-heading{
+    padding: 5px 42px;
+    cursor: pointer;
+    color: white;
+     margin-left: 34px;
+    margin-top: 14px;
+    max-width: 87%;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.accordion-content{
+    transition: 4s ease-in-out;
+    padding: 10px;
+   
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    animation-name: slideDown;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+}
+
+// @keyframes slideDown {
+//     0%{
+//         transform: translateY(-100%);
+//     }
+//     50%{
+//         transform: translateY(8%) 
+//     }
+//     65%{
+//         transform: translateY(-4%)
+//     }
+//     80%{
+//         transform: translateY(4%)
+//     }
+//     95%{
+//         transform: translateY(-2%)
+//     }
+//     100%{
+//         transform: translateY(0%)
+//     }
+// }
+
+
+ .down-icon{
+     transition: 0.2s ease-out;
+
+ }
+
+ .icon{
+  
+   animation-name: icon;
+   transition: 0.2s ease-out;
+   transform: rotate(180deg)
+ }
+
+i{
+    font-size: 14px;
+}
+
+
+.sion{
+    color: beige;
+    margin-left: 74px;
+   font-size: 17px;
+   max-width: 90%;
+ 
+}
+
+.mt20{
+    padding-top: 18px;
+}
+
+.mt40{
+    padding-top: 35px;
+}
+
+.center-align{
+    text-align: center;
+}
+
+.fm77mainTicker {
+    display: block;
+}
+.fm77tickerWrap {
+    overflow: hidden;
+    // // overflow-x: hidden;
+    // overflow-y: hidden;
+    height: auto;
+}
+
+
+.fm77tickerWrap .fm77tickerItem {
+    display: inline-block;
+}
+
+.fm77tickerWrap .fm77ticker {
+    white-space: nowrap;
+    display: inline-block;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-name: fm77icker;
+    animation-name: fm77ticker;
+    -webkit-animation-duration: 90s;
+    animation-duration: 90s;
+}

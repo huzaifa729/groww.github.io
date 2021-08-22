@@ -1,0 +1,127 @@
+.nir{
+    padding-top: 44px;
+    margin-left: 49px;
+    display: flex;
+
+}
+
+
+
+.kaal{
+ font-size: 40px;
+    color: #44475b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lop{
+    margin: 8px;
+    font-size: 20px;
+    color: gray;
+}
+
+
+.suinn{
+  text-align: right;
+  top: 0;
+ width: 42%;
+ color: #00d09c; 
+ cursor: pointer; 
+ font-size: 17px;
+ padding-top: 64px;
+   
+}
+
+.suinn:hover{
+  text-decoration: underline;
+}
+.suinn::after{
+    content: ' \2192';
+}
+
+
+.long{
+    display: flex;
+    margin: 24px;
+    padding-top: 123px;
+    cursor: pointer;
+}
+
+.short{
+  border: 1px solid #f6f6f7;
+    margin: 3px 30px;
+    height: 404px;
+   
+   }
+   .short:hover{
+    -moz-box-shadow: 0 0 5px rgb(241, 236, 236);
+    -webkit-box-shadow: 0 0 5px rgb(199, 195, 195);
+  box-shadow: 0 0 5px rgb(185, 181, 185);
+   }
+
+   .bon{
+    display: flex;
+}
+   .checked {
+    color: orange;
+    font-size: 20px;
+    margin: 2px 5px;
+    padding-top: 23px;
+    
+  }
+  .t39UserImg{
+      margin: 3px 19px;
+  
+  }
+
+   .kon{
+       font-size: 30px;
+       color: #44475b;
+       letter-spacing: 2px;
+       font-family: Arial, Helvetica, sans-serif;
+       margin: 8px;
+      
+   }
+
+   .ioi{
+       margin: 9px;
+       font-size: 22px;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       padding-top: 14px;
+   }
+
+   .sir{
+       padding: 1px 7px;
+       font-size: 15px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       color: grey;
+   }
+
+   .fri{
+    margin: 9px;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 14px;
+   }
+
+   .nri{
+    padding: 1px 7px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+   }
+
+   .nor{
+    margin: 9px;
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 14px;
+   }
+   .or{
+    padding: 1px 7px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+   }
+
+ 
+
+ 
